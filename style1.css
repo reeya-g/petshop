@@ -1,0 +1,165 @@
+body
+{
+background: #F0FFFF;
+}
+ul {
+position:left;
+
+margin:0;
+padding: 5px 0;
+background: #fff;
+display: flex;
+border-radius: 10px;
+box-shadow: 0 10px 30px rgba(0,0,0,.3) ;
+
+}
+ul li
+{
+	list-style: none;
+	text-align: center;
+	display: block;
+	width:20%;
+	border-right: 1px solid rgba(0,0,0,0.2);
+
+
+}
+ul li:last-child
+{
+	border-right:none;
+}
+ul li a
+{
+	padding: 0 50px;
+	display: block;
+}
+ul li a .icon
+{
+	text-align:left;
+}
+.button
+{
+	padding: 10px 24px;
+	background-color: #808080;
+	border-width: medium;
+	color:white;
+}
+ .titlebar ul li h2
+{
+
+margin: 5px;
+font color: black;
+text-align:left;
+
+font-size:25px;
+}
+.titlebar ul li
+{
+	box-shadow:none;
+	margin:0;
+	padding:1px;
+	font-color: white;
+	width: 80%;
+	height:2.5em;
+	text-align: right;
+	border-right:none;
+	background-color:#FF8C00;
+}
+.box2
+{
+	background-color: #696969;
+	padding: 10px;
+
+	border-radius :19px;
+	color: white;
+
+}
+.box1
+{
+	background-color: #FF4500;
+	padding:30px;
+	margin:10px;
+	color:white;
+	border-radius :19px;
+	font: Times, Times New Roman, serif;
+	width:45%;
+	height:16em;
+	box-shadow: 0 10px 30px rgba(0,0,0,.3);
+
+}
+.registerbox
+{
+    background-color: #FF6347;
+	padding:30px;
+	margin:10px;
+	color:white;
+	border-radius :19px;
+	font: Times, Times New Roman, serif;
+	width:45%;
+	height:40em;
+	box-shadow: 0 10px 30px rgba(0,0,0,.3);
+}
+.registerbox h2
+{
+	text-align: center;
+	font-size:2.2em;
+}
+.registerbox h4
+{
+	text-align: center;
+	color: red;
+}
+.loginbox
+{
+	background-color: #FF6347;
+padding:30px;
+margin:10px;
+color:white;
+border-radius :19px;
+font: Times, Times New Roman, serif;
+width:35%;
+height:25em;
+box-shadow: 0 10px 30px rgba(0,0,0,.3);
+top:60px;
+right:30px;
+position: absolute;
+
+}
+.loginbox h1
+{
+	text-align: center;
+	font-size:2.2em;
+}
+.loginbox h2
+{
+	text-align: center;
+	font-size:2em;
+}
+.info ol
+{
+display: block;
+	color:black;
+	margin:10px;
+	paddng :10px;
+ text-decoration: none;
+}
+.contact{
+	background-color: #FF6347;
+	padding:50px;
+ border-radius:19px;
+	margin:100px;
+	text-align: left;
+position: absolute;
+top:50px;
+}
+.contact h2
+{
+	text-align: center;
+	font-size:2.2em;
+}
+.contact h3
+{
+	text-align: center;
+
+	color:#696969;
+
+}
